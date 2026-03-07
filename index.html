@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tac-Tac-Toe AI | Unbeatable</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Tic-Tac-Toe</h1>
+            <p class="subtitle">Play against an unbeatable Minimax AI</p>
+        </header>
+
+        <main>
+            <div class="game-status" id="gameStatus">Your turn: Play as X</div>
+
+            <div class="board" id="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+
+            <div class="controls">
+                <button id="resetBtn" class="primary-btn">Restart Game</button>
+            </div>
+
+            <div class="difficulty-section">
+                <p>AI Difficulty: <span class="highlight">Moderate (50% Win Chance)</span></p>
+                <p>Created by: <span class="highlight">Parag Mali</span></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Task 2 | Artificial Intelligence</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
